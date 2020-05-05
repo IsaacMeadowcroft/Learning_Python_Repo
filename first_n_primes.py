@@ -29,6 +29,7 @@ def first_n_primes(n):
 
 if __name__ == "__main__":
     doctest.testmod()
+    print("This program takes as input n and calculates the first n primes.")
     n=int(input("Please input an integer number n: "))
     first_n_primes(n)
     
