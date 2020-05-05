@@ -23,12 +23,13 @@ def first_n_primes(n):
     i=2
     while(count<n):
         if(is_prime(i)):
-            print(i,end=" ")
+            print(i,end=' ')
             count+=1
         i+=1
 
 if __name__ == "__main__":
     doctest.testmod()
+    print("This program takes n as input and prints the first n primes.") 
     n=int(input("Please input an integer number n: "))
     first_n_primes(n)
     
