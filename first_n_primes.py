@@ -29,7 +29,7 @@ def first_n_primes(n):
 
 if __name__ == "__main__":
     doctest.testmod()
-    n=int(input("Please input an integer n: "))
+    n=int(input("Please input an integer number n: "))
     first_n_primes(n)
     
     
